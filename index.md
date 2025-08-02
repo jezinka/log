@@ -5,7 +5,10 @@ title: Log
 
 # Miesięczne logi
 
-{% assign posts = site.posts %}
-{% for post in posts %}
-    title: {{post.title}}
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %Y" }}
+  </li>
 {% endfor %}
+</ul>
