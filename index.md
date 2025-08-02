@@ -3,8 +3,6 @@ layout: default
 title: Log
 ---
 
-# Log
+# Cześć
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%B %Y" }}
-  {% endfor %}
+To test loga.
