@@ -3,3 +3,4 @@ description: "Książki, seriale, gry"
 baseurl: ""
 url: "https://log.paulinakaczmarek.pl"
 theme: minima
+markdown: kramdown
