@@ -5,6 +5,7 @@ title: Log
 
 # Miesięczne logi
 
-{% for post in site.posts %}
-- [{{ post.title }}]
-  {% endfor %}
+{% assign posts = site.posts %}
+{% for post in posts %}
+    title: {{post.title}}
+{% endfor %}
