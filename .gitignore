@@ -1,5 +1,5 @@
 /.jekyll-cache/*.
-/.idea/
-/_site/
+/.idea/*.
+/_site/*.
 Gemfile
 Gemfile.lock
