@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e94d4bb0-87f4-4982-b029-49ce1e60d7f6" name="Changes" comment="Add .gitignore and update media entries for July and August">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/log.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+    <list default="true" id="e94d4bb0-87f4-4982-b029-49ce1e60d7f6" name="Changes" comment="Refactor book and series entries to improve formatting and consistency">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/.obsidian/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/.obsidian/graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/.obsidian/workspace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2025-07-01-lipiec.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-07-01-lipiec.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2025-08-01-sierpien.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-08-01-sierpien.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2025/08/01/sierpien.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/log/lipiec/2025/07/01/lipiec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-sierpien-wakacje.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Makoto Yukimura.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Przyjaciele, kochankowie i ta Wielka Straszna Rzecz.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Przyjaciele, kochankowie i ta Wielka Straszna Rzecz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/The Bear.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/The Bear.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,31 +56,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/jezinka/IdeaProjects/log/_posts",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jezinka/IdeaProjects/log/_posts&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_layouts" />
     </key>
@@ -107,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754114073038</updated>
       <workItem from="1754114074290" duration="1312000" />
-      <workItem from="1754116660519" duration="10557000" />
+      <workItem from="1754116660519" duration="14231000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -261,7 +256,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754209325162</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Update .gitignore to include specific patterns for IDE and site directories">
+      <option name="closed" value="true" />
+      <created>1754209971665</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1754209971665</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Refactor book and series entries to improve formatting and consistency">
+      <option name="closed" value="true" />
+      <created>1754210032078</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1754210032078</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +306,9 @@
     <MESSAGE value="Refactor habit tracking tables for improved readability" />
     <MESSAGE value="Update monthly goals and adjust table width for better layout" />
     <MESSAGE value="Add .gitignore and update media entries for July and August" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore and update media entries for July and August" />
+    <MESSAGE value="Update .gitignore to include specific patterns for IDE and site directories" />
+    <MESSAGE value="Refactor book and series entries to improve formatting and consistency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor book and series entries to improve formatting and consistency" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

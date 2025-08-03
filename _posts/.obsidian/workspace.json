@@ -4,20 +4,94 @@
     "type": "split",
     "children": [
       {
-        "id": "f44aa58f2c7aff1b",
+        "id": "e08e14c8613d4a98",
         "type": "tabs",
         "children": [
           {
-            "id": "368023821b6dae73",
+            "id": "c016a721ba29c896",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
+              "type": "localgraph",
+              "state": {
+                "file": "2025-08-01-sierpien.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#gra",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14048348
+                      }
+                    },
+                    {
+                      "query": "tag:#serial  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14069084
+                      }
+                    },
+                    {
+                      "query": "tag:#książka  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11392604
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of 2025-08-01-sierpien"
+            }
+          },
+          {
+            "id": "729773ef268b8610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-08-01-sierpien.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-01-sierpien"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,24 +249,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "368023821b6dae73",
+  "active": "729773ef268b8610",
   "lastOpenFiles": [
-    "2025-08-01-sierpien.md",
-    "2025-07-01-lipiec.md",
-    "Banished.md",
-    "Gemcraft - frostborn wrath.md",
-    "Dzikość.md",
     "Makoto Yukimura.md",
+    "2025-sierpien-wakacje.md",
+    "2025-07-01-lipiec.md",
+    "2025-07-01-lipiec.md~",
+    "Gemcraft - frostborn wrath.md",
+    "img.png",
+    "2025-08-01-sierpien.md",
+    "Elena Ferrante.md",
+    "The Bear.md",
+    "Sandman.md",
+    "Przyjaciele, kochankowie i ta Wielka Straszna Rzecz.md",
+    "Banished.md",
+    "Dzikość.md",
     "Proces.md",
     "Przesmyk.md",
-    "Sandman.md",
-    "The Bear.md",
     "Wodnikowe wzgórze.md",
     "Saga winlandzka. T. 2.md",
     "Saga winlandzka. T. 1.md",
-    "Przyjaciele, kochankowie i ta Wielka Straszna Rzecz.md",
     "Czas porzucenia.md",
-    "2025-sierpien-wakacje.md",
     "2025-08-03.md",
     "Untitled.canvas"
   ]
