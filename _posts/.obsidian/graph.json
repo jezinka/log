@@ -6,7 +6,29 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#serial",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "tag:#książka  ",
+      "color": {
+        "a": 1,
+        "rgb": 6577366
+      }
+    },
+    {
+      "query": "tag:#gra  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -18,5 +40,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.976528075072459,
-  "close": true
+  "close": false
 }
