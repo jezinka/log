@@ -1,2 +1,0 @@
-#książka 
-autor: [[Elena Ferrante]]

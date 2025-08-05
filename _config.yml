@@ -1,5 +1,0 @@
-title: "Log"
-description: "Książki, seriale, gry"
-markdown: kramdown
-kramdown:
-  input: GFM
