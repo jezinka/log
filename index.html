@@ -1,17 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <link href="https://unpkg.com/vis-timeline/styles/vis-timeline-graph2d.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="timeline.css">
+    <title>Kalendarz wydarzeń</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/js-year-calendar@latest/dist/js-year-calendar.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/calendar.css">
 </head>
 <body>
-<div id="timeline"></div>
 
-<script src="timeline-items.js"></script>
-<script src="timeline.js"></script>
+<h1>Kalendarz oglądania i czytania</h1>
+<div class="calendar-row">
+    <div id="calendar_tv"></div>
+    <div id="calendar_books"></div>
+</div>
+<div class="calendar-row">
+    <div id="calendar_tv_alone"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-year-calendar@latest/locales/js-year-calendar.pl.js"></script>
+<script src="static/items.js"></script>
+
+<script>
+    const colors = {
+        books: ['#f8c471', '#f39c12', '#b9770e'],
+        tv: ['#6ad593', '#27ae60', '#1e8449'],
+        alone: ['#85c1e9', '#3498db', '#21618c']
+    };
+
+    const toYMD = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+
+    const prepareDataSource = (group, subgroup, colors, excludeSubgroup = null) => {
+        return dataSource
+            .filter(item =>
+                item.group === group &&
+                (!subgroup || item.subgroup === subgroup) &&
+                (!excludeSubgroup || item.subgroup !== excludeSubgroup)
+            )
+            .sort((a, b) => new Date(a.startDate) - new Date(b.startDate))
+            .map((item, index) => ({
+                ...item,
+                startDate: new Date(item.startDate),
+                endDate: new Date(item.endDate),
+                color: colors[index % colors.length]
+            }));
+    };
+
+    const renderCalendar = (selector, dataSource, minDate, maxDate) => {
+        new Calendar(selector, {
+            language: 'pl',
+            style: 'background',
+            dataSource,
+            minDate,
+            maxDate,
+            customDayRenderer: (element, date) => {
+                const events = dataSource.filter(ev => toYMD(date) >= toYMD(ev.startDate) && toYMD(date) <= toYMD(ev.endDate));
+                if (events.length) {
+                    element.classList.add('calendar-cell');
+                    const titles = events.map(e => e.title).join('|');
+                    element.setAttribute('data-title', titles);
+                    element.setAttribute('title', events.map(e => e.title).join('\n'));
+                }
+            }
+        });
+    };
+
+    const dataSourceTv = prepareDataSource('tv', null, colors.tv, 'alone');
+    const dataSourceBooks = prepareDataSource('books', null, colors.books);
+    const dataSourceTvAlone = prepareDataSource('tv', 'alone', colors.alone).concat(prepareDataSource('anime', null, colors.alone));
+
+    renderCalendar('#calendar_tv', dataSourceTv, new Date(2024, 11, 1), new Date(2025, 11, 31));
+    renderCalendar('#calendar_books', dataSourceBooks, new Date(2025, 0, 1), new Date(2025, 11, 31));
+    renderCalendar('#calendar_tv_alone', dataSourceTvAlone, new Date(2025, 0, 1), new Date(2025, 11, 31));
+
+    document.addEventListener('mouseover', e => {
+        if (e.target.classList.contains('calendar-cell')) {
+            const title = e.target.getAttribute('data-title');
+            document.querySelectorAll(`.calendar-cell[data-title*="${title}"]`).forEach(el => el.classList.add('highlight'));
+        }
+    });
+
+    document.addEventListener('mouseout', e => {
+        if (e.target.classList.contains('calendar-cell')) {
+            const title = e.target.getAttribute('data-title');
+            document.querySelectorAll(`.calendar-cell[data-title*="${title}"]`).forEach(el => el.classList.remove('highlight'));
+        }
+    });
+</script>
 
 </body>
 </html>
