@@ -7,7 +7,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Wybrani"
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Atak Tytanów T.30"
     },
     {
         "id": 3,
@@ -27,27 +29,30 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Gender Queer"
     },
     {
         "id": 4,
         "content": "Dziki robot",
         "start": "2024-12-07 1:00",
-        "end": null,
+        "end": "2024-12-07 23:59",
         "group": "tv",
         "subgroup": "cinema",
         "url": null,
-        "className": "cinema"
+        "className": "cinema",
+        "title": "Dziki robot"
     },
     {
         "id": 5,
         "content": "Król Lew",
         "start": "2024-12-06 1:00",
-        "end": null,
+        "end": "2024-12-06 23:59",
         "group": "tv",
         "subgroup": "movie",
         "url": null,
-        "className": "movie"
+        "className": "movie",
+        "title": "Król Lew"
     },
     {
         "id": 6,
@@ -57,7 +62,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": "https://www.imdb.com/title/tt16358384",
-        "className": "series"
+        "className": "series",
+        "title": "Tulsa King s.2"
     },
     {
         "id": 7,
@@ -67,7 +73,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Atak Tytanów T.31"
     },
     {
         "id": 8,
@@ -77,7 +84,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Atak Tytanów T.32"
     },
     {
         "id": 9,
@@ -87,7 +95,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Atak Tytanów T.33"
     },
     {
         "id": 10,
@@ -97,7 +106,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Atak Tytanów T.34"
     },
     {
         "id": 11,
@@ -107,7 +117,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "doc",
         "url": null,
-        "className": "doc"
+        "className": "doc",
+        "title": "Money Electric: The Bitcoin Mystery"
     },
     {
         "id": 12,
@@ -117,7 +128,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "movie",
         "url": null,
-        "className": "movie"
+        "className": "movie",
+        "title": "John Wick"
     },
     {
         "id": 13,
@@ -127,7 +139,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "movie",
         "url": null,
-        "className": "movie"
+        "className": "movie",
+        "title": "John Wick 2"
     },
     {
         "id": 14,
@@ -137,7 +150,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "movie",
         "url": null,
-        "className": "movie"
+        "className": "movie",
+        "title": "John Wick 3"
     },
     {
         "id": 15,
@@ -147,7 +161,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Queer Eye s.9"
     },
     {
         "id": 16,
@@ -157,7 +172,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Pjongjang"
     },
     {
         "id": 17,
@@ -167,7 +183,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Nie zapomnij mnie"
     },
     {
         "id": 18,
@@ -177,7 +194,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Strefa Gazy: Przypisy"
     },
     {
         "id": 19,
@@ -187,7 +205,8 @@ const items = new vis.DataSet([
         "group": "games",
         "subgroup": "",
         "url": null,
-        "className": ""
+        "className": "",
+        "title": "Papers, please"
     },
     {
         "id": 20,
@@ -197,7 +216,8 @@ const items = new vis.DataSet([
         "group": "games",
         "subgroup": "",
         "url": null,
-        "className": ""
+        "className": "",
+        "title": "Celeste"
     },
     {
         "id": 21,
@@ -207,7 +227,8 @@ const items = new vis.DataSet([
         "group": "games",
         "subgroup": "mini",
         "url": null,
-        "className": "mini"
+        "className": "mini",
+        "title": "Włóczykij: Melodia Doliny Muminków"
     },
     {
         "id": 22,
@@ -217,7 +238,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "book",
         "url": null,
-        "className": "book"
+        "className": "book",
+        "title": "Siddhartha"
     },
     {
         "id": 23,
@@ -227,7 +249,8 @@ const items = new vis.DataSet([
         "group": "games",
         "subgroup": "",
         "url": null,
-        "className": ""
+        "className": "",
+        "title": "Hollow Knight"
     },
     {
         "id": 24,
@@ -237,7 +260,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "book",
         "url": null,
-        "className": "book"
+        "className": "book",
+        "title": "Hałas"
     },
     {
         "id": 25,
@@ -247,7 +271,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Lżejsza od swojego cienia"
     },
     {
         "id": 26,
@@ -257,7 +282,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Habibi"
     },
     {
         "id": 27,
@@ -267,7 +293,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "book",
         "url": null,
-        "className": "book"
+        "className": "book",
+        "title": "Normalni ludzie"
     },
     {
         "id": 28,
@@ -277,7 +304,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Ghost world"
     },
     {
         "id": 29,
@@ -287,7 +315,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Daytripper"
     },
     {
         "id": 30,
@@ -297,7 +326,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "book",
         "url": null,
-        "className": "book"
+        "className": "book",
+        "title": "Histeria Sztuki"
     },
     {
         "id": 31,
@@ -307,7 +337,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "book",
         "url": null,
-        "className": "book"
+        "className": "book",
+        "title": "Nie opuszczaj mnie"
     },
     {
         "id": 32,
@@ -317,7 +348,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "book",
         "url": null,
-        "className": "book"
+        "className": "book break",
+        "title": "Czarna ziemia"
     },
     {
         "id": 33,
@@ -327,7 +359,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Full Metal Alchemist t.1"
     },
     {
         "id": 34,
@@ -337,7 +370,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "comics",
         "url": null,
-        "className": "comics"
+        "className": "comics",
+        "title": "Do poprawki"
     },
     {
         "id": 35,
@@ -347,7 +381,8 @@ const items = new vis.DataSet([
         "group": "books",
         "subgroup": "book",
         "url": null,
-        "className": "book"
+        "className": "book",
+        "title": "Genialna przyjaciólka"
     },
     {
         "id": 36,
@@ -357,7 +392,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "movie",
         "url": null,
-        "className": "movie"
+        "className": "movie",
+        "title": "John Wick 4"
     },
     {
         "id": 37,
@@ -367,137 +403,151 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Squid game s.2"
     },
     {
         "id": 38,
         "content": "My happy marriage",
         "start": "2025-01-06",
-        "end": null,
+        "end": "2025-01-06 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 39,
         "content": "My happy marriage",
         "start": "2025-01-13",
-        "end": null,
+        "end": "2025-01-13 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 40,
         "content": "My happy marriage",
         "start": "2025-01-20",
-        "end": null,
+        "end": "2025-01-20 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 41,
         "content": "My happy marriage",
         "start": "2025-01-27",
-        "end": null,
+        "end": "2025-01-27 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 42,
         "content": "My happy marriage",
         "start": "2025-02-04",
-        "end": null,
+        "end": "2025-02-04 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 43,
         "content": "My happy marriage",
         "start": "2025-02-10",
-        "end": null,
+        "end": "2025-02-10 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 44,
         "content": "My happy marriage",
         "start": "2025-02-17",
-        "end": null,
+        "end": "2025-02-17 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 45,
         "content": "My happy marriage",
         "start": "2025-02-24",
-        "end": null,
+        "end": "2025-02-24 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 46,
         "content": "My happy marriage",
         "start": "2025-03-03",
-        "end": null,
+        "end": "2025-03-03 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 47,
         "content": "My happy marriage",
         "start": "2025-03-10",
-        "end": null,
+        "end": "2025-03-10 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 48,
         "content": "My happy marriage",
         "start": "2025-03-17",
-        "end": null,
+        "end": "2025-03-17 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 49,
         "content": "My happy marriage",
         "start": "2025-03-23",
-        "end": null,
+        "end": "2025-03-23 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 50,
         "content": "My happy marriage",
         "start": "2025-04-28",
-        "end": null,
+        "end": "2025-04-28 23:59",
         "group": "anime",
         "subgroup": "MHM",
         "url": null,
-        "className": "MHM"
+        "className": "MHM",
+        "title": "My happy marriage"
     },
     {
         "id": 51,
@@ -507,7 +557,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "doc",
         "url": null,
-        "className": "doc"
+        "className": "doc",
+        "title": "Dziecko czy oszustka: Przypadek Natalii Grace"
     },
     {
         "id": 52,
@@ -517,7 +568,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Penguin"
     },
     {
         "id": 53,
@@ -527,7 +579,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Dzień Szakala"
     },
     {
         "id": 54,
@@ -537,7 +590,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "movie",
         "url": null,
-        "className": "movie"
+        "className": "movie",
+        "title": "Szakal"
     },
     {
         "id": 55,
@@ -547,17 +601,19 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series-alone",
         "url": null,
-        "className": "series-alone"
+        "className": "series-alone",
+        "title": "Ukochane dziecko"
     },
     {
         "id": 56,
         "content": "Mianujom mie Hanka",
         "start": "2025-01-30 1:00",
-        "end": null,
+        "end": "2025-01-30 23:59",
         "group": "tv",
         "subgroup": "doc",
         "url": null,
-        "className": "doc"
+        "className": "doc",
+        "title": "Mianujom mie Hanka"
     },
     {
         "id": 57,
@@ -567,7 +623,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Śleboda"
     },
     {
         "id": 58,
@@ -577,7 +634,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Krucjata s.2"
     },
     {
         "id": 59,
@@ -587,17 +645,19 @@ const items = new vis.DataSet([
         "group": "anime",
         "subgroup": "",
         "url": null,
-        "className": ""
+        "className": "",
+        "title": "Neon Genesis Evangelion"
     },
     {
         "id": 60,
         "content": "End of Evangelion",
         "start": "2025-03-12",
-        "end": null,
+        "end": "2025-03-12 23:59",
         "group": "anime",
         "subgroup": "",
         "url": null,
-        "className": ""
+        "className": "",
+        "title": "End of Evangelion"
     },
     {
         "id": 61,
@@ -607,7 +667,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series-alone",
         "url": null,
-        "className": "series-alone"
+        "className": "series-alone",
+        "title": "Ocet jabłkowy"
     },
     {
         "id": 62,
@@ -617,7 +678,8 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Kibic"
     },
     {
         "id": 63,
@@ -627,16 +689,326 @@ const items = new vis.DataSet([
         "group": "tv",
         "subgroup": "series",
         "url": null,
-        "className": "series"
+        "className": "series",
+        "title": "Zbrodnie po sąsiedzku"
     },
     {
         "id": 64,
         "content": "Ponyo",
         "start": "2025-03-14",
-        "end": null,
+        "end": "2025-03-15",
         "group": "anime",
         "subgroup": "",
         "url": null,
-        "className": ""
+        "className": " dnf",
+        "title": "Ponyo"
+    },
+    {
+        "id": 65,
+        "content": "Daredevil",
+        "start": "2025-03-15 1:00",
+        "end": "2025-03-15 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series dnf",
+        "title": "Daredevil"
+    },
+    {
+        "id": 66,
+        "content": "W pułapce myśli",
+        "start": "2025-02-22 13:00",
+        "end": "2025-02-23 12:00",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book dnf",
+        "title": "W pułapce myśli"
+    },
+    {
+        "id": 67,
+        "content": "Dear Zachary",
+        "start": "2025-07-25 1:00",
+        "end": "2025-07-25 23:59",
+        "group": "tv",
+        "subgroup": "doc",
+        "url": null,
+        "className": "doc",
+        "title": "Dear Zachary"
+    },
+    {
+        "id": 68,
+        "content": "Sound of sch",
+        "start": "2025-02-24 13:00",
+        "end": "2025-02-24 23:59",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book",
+        "title": "Sound of sch"
+    },
+    {
+        "id": 69,
+        "content": "Marka osobista w branży IT",
+        "start": "2025-03-21 13:00",
+        "end": "2025-03-22 12:00",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book",
+        "title": "Marka osobista w branży IT"
+    },
+    {
+        "id": 70,
+        "content": "Potwory",
+        "start": "2025-03-23 13:00",
+        "end": "2025-03-30 12:00",
+        "group": "books",
+        "subgroup": "comics",
+        "url": null,
+        "className": "comics",
+        "title": "Potwory"
+    },
+    {
+        "id": 71,
+        "content": "Lockerbie",
+        "start": "2025-03-31 1:00",
+        "end": "2025-04-05 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Lockerbie"
+    },
+    {
+        "id": 72,
+        "content": "Reacher",
+        "start": "2025-04-06 1:00",
+        "end": "2025-04-16 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Reacher"
+    },
+    {
+        "id": 73,
+        "content": "Black Mirror",
+        "start": "2025-04-17 1:00",
+        "end": "2025-04-24 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Black Mirror"
+    },
+    {
+        "id": 74,
+        "content": "Slow horses",
+        "start": "2025-04-27 1:00",
+        "end": "2025-05-02 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Slow horses"
+    },
+    {
+        "id": 75,
+        "content": "Severance",
+        "start": "2025-04-27 1:00",
+        "end": "2025-05-06 21:00",
+        "group": "tv",
+        "subgroup": "series-alone",
+        "url": null,
+        "className": "series-alone",
+        "title": "Severance"
+    },
+    {
+        "id": 76,
+        "content": "Demon w rodzinie: Sprawa Ruby Franke",
+        "start": "2025-05-05 1:00",
+        "end": "2025-05-07 21:00",
+        "group": "tv",
+        "subgroup": "doc",
+        "url": null,
+        "className": "doc",
+        "title": "Demon w rodzinie: Sprawa Ruby Franke"
+    },
+    {
+        "id": 77,
+        "content": "Ścieżka",
+        "start": "2025-03-30 13:00",
+        "end": "2025-04-02 12:00",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book",
+        "title": "Ścieżka"
+    },
+    {
+        "id": 78,
+        "content": "Dojrzewanie",
+        "start": "2025-03-16 1:00",
+        "end": "2025-03-19 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Dojrzewanie"
+    },
+    {
+        "id": 79,
+        "content": "Dexter: Original sin",
+        "start": "2025-03-20 1:00",
+        "end": "2025-03-30 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Dexter: Original sin"
+    },
+    {
+        "id": 80,
+        "content": "Śmieci",
+        "start": "2025-04-03 13:00",
+        "end": "2025-04-07 12:00",
+        "group": "books",
+        "subgroup": "comics",
+        "url": null,
+        "className": "comics",
+        "title": "Śmieci"
+    },
+    {
+        "id": 81,
+        "content": "Ocean na końcu drogi",
+        "start": "2025-04-08 13:00",
+        "end": "2025-04-11 12:00",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book",
+        "title": "Ocean na końcu drogi"
+    },
+    {
+        "id": 82,
+        "content": "Historia nowego nazwiska",
+        "start": "2025-04-12 13:00",
+        "end": "2025-04-21 12:00",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book",
+        "title": "Historia nowego nazwiska"
+    },
+    {
+        "id": 83,
+        "content": "Powolna produktywność",
+        "start": "2025-04-22 13:00",
+        "end": "2025-04-27 12:00",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book break",
+        "title": "Powolna produktywność"
+    },
+    {
+        "id": 84,
+        "content": "Historia ucieczki",
+        "start": "2025-04-28 13:00",
+        "end": "2025-05-11 12:00",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book",
+        "title": "Historia ucieczki"
+    },
+    {
+        "id": 85,
+        "content": "Bosch: Legacy",
+        "start": "2025-05-03 1:00",
+        "end": "2025-05-13 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Bosch: Legacy"
+    },
+    {
+        "id": 86,
+        "content": "Silos",
+        "start": "2025-05-14 1:00",
+        "end": "2025-05-26 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Silos"
+    },
+    {
+        "id": 87,
+        "content": "Mythic Quest",
+        "start": "2025-05-27 1:00",
+        "end": "2025-06-04 21:00",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Mythic Quest"
+    },
+    {
+        "id": 88,
+        "content": "PTSD",
+        "start": "2025-05-12 13:00",
+        "end": "2025-05-13 12:00",
+        "group": "books",
+        "subgroup": "comics",
+        "url": null,
+        "className": "comics",
+        "title": "PTSD"
+    },
+    {
+        "id": 89,
+        "content": "Powolna produktywność",
+        "start": "2025-05-14 13:00",
+        "end": "2025-05-16 12:00",
+        "group": "books",
+        "subgroup": "book",
+        "url": null,
+        "className": "book return",
+        "title": "Powolna produktywność"
+    },
+    {
+        "id": 90,
+        "content": "Jerry Springer: Kłótnie, kamera, akcja",
+        "start": "2025-02-22 1:00",
+        "end": "2025-02-22 23:59",
+        "group": "tv",
+        "subgroup": "series",
+        "url": null,
+        "className": "series",
+        "title": "Jerry Springer: Kłótnie, kamera, akcja"
+    },
+    {
+        "id": 91,
+        "content": "Sprzątaczka",
+        "start": "2025-05-15 1:00",
+        "end": "2025-05-15 23:59",
+        "group": "tv",
+        "subgroup": "series-alone",
+        "url": null,
+        "className": "series-alone break",
+        "title": "Sprzątaczka"
+    },
+    {
+        "id": 92,
+        "content": "Sprzątaczka",
+        "start": "2025-06-13 1:00",
+        "end": "2025-06-13 23:59",
+        "group": "tv",
+        "subgroup": "series-alone",
+        "url": null,
+        "className": "series-alone break return",
+        "title": "Sprzątaczka"
     }
 ]);

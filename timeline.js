@@ -13,6 +13,7 @@ const timeline = new vis.Timeline(container, items, groups, {
     stack: false,
     zoomable: true,
     orientation: 'top',
+    type: "range",
     start: new Date(2024, 10, 30),
     end: new Date(today.getFullYear(), today.getMonth() + 1, today.getDate()),
     min: new Date(2024, 10, 30), // lower limit of visible range
