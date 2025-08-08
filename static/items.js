@@ -890,7 +890,7 @@ const dataSource = [
     {
         "id": 112,
         "startDate": "2025-07-31",
-        "endDate": "2025-08-07",
+        "endDate": "2025-08-06",
         "title": "Dzikość",
         "group": "tv",
         "subgroup": "series"
@@ -950,5 +950,21 @@ const dataSource = [
         "title": "Lilo i Stitch",
         "group": "tv",
         "subgroup": "cinema"
+    },
+    {
+        "id": 120,
+        "startDate": "2025-08-06",
+        "endDate": "2025-08-10",
+        "title": "Milczące bliźniaczki",
+        "group": "books",
+        "subgroup": "book"
+    },
+    {
+        "id": 121,
+        "startDate": "2025-08-07",
+        "endDate": "2025-08-07",
+        "title": "Upadek",
+        "group": "tv",
+        "subgroup": "series"
     }
 ];
